@@ -1,5 +1,4 @@
 local Players = game:GetService("Players")
-local Workspace = game:GetService("Workspace")
 local RunService = game:GetService("RunService")
 local ReplicatedFirst = game:GetService("ReplicatedFirst")
 
@@ -16,8 +15,8 @@ end
 local character = Api.requestMakeCharacter()
 local simulation = Simulation.new(character)
 
-Workspace.CurrentCamera.CameraSubject = character.instance.PrimaryPart
-Workspace.CurrentCamera.CameraType = Enum.CameraType.Track
+workspace.CurrentCamera.CameraSubject = character.instance.PrimaryPart
+workspace.CurrentCamera.CameraType = Enum.CameraType.Track
 
 RunService.Stepped:Connect(function(_, dt)
 	local input = {
