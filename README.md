@@ -1,10 +1,10 @@
-# Luanoid
-New character controller intended as a replacement for Humanoid for developers who want more flexibility or control over their characters.
+# Luaunoid
+A special version of luanoid made for Sonic Earth. Has some slight changes and improvements to the original code that was written in 2018. Luaunoid is a new(-ish) character controller intended as a replacement for Humanoid for developers who want more flexibility or control over their characters, developed by LPGhatguy.
 
 ## Usage
 The latest source is available in the `src` directory. The rig and test playground is available in `luanoid-test-place.rbxlx`, but the version of the controller in the place may not be up-to-date at all times.
 
-To work on Luanoid, use [Rojo](https://github.com/LPGhatguy/rojo) to sync the project into the test place continually.
+To work on Luaunoid, use [Rojo](https://github.com/LPGhatguy/rojo) to sync the project into the test place continually.
 
 ## Goals
 * Keep state machine and controls entirely in Lua
